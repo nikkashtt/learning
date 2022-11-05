@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <style>
+        div {
+            height: fit-content;
+            width: 1200px;
+            background-color: rgb(182, 182, 182);
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .div {
+            padding: 15px;
+            margin-left: 20px;
+            width: 1100;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .adiv {
+            background-image: url("pinktree.png");
+            background-repeat: repeat-x;
+            height: 400px;
+        }
+
+        .bdiv {
+            background-image: url("pinktree.png");
+            background-repeat: no-repeat;
+            height: 600px;
+        }
+
+        .cdiv {
+            background-image: url("pinktree.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right: 200px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS background-repeat:</h1>
+    By default, the background-image property repeats an image both horizontally and vertically. <br>
+    Some images should be repeated only horizontally or vertically, or they will look strange, like this. <br>
+    <br>
+    <div>
+        <h2>CSS Example:</h2>
+        <div class="div adiv">
+            <h2>Hello World!</h2>
+        </div>
+    </div>
+    <br>
+    <br>
+    If the image above is repeated only horizontally, the background will look better: <br>
+    <br>
+    <div>
+        <h2>CSS Example:</h2>
+        <div class="div bdiv">
+            <h2>Hello World!</h2>
+        </div>
+    </div>
+    <br>
+    <h2>CSS background-position:</h2>
+    The background-position property is used to specify the position of the background image. <br>
+    <br>
+    <div>
+        <h2>CSS Example:</h2>
+        <div class="div cdiv">
+            <h2>Hello World!</h2>
+        </div>
+    </div>
+</body>
+
+</html>

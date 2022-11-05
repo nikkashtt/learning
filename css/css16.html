@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        div {
+            height: fit-content;
+            width: 1200px;
+            background-color: rgb(182, 182, 182);
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .div {
+            padding: 15px;
+            margin-left: 20px;
+            width: 1100;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0 0 50px 0;
+        }
+
+        h2 {
+            margin: 20px 0 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Margin Collapse:</h1>
+    Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the
+    two margins. <br>
+    This does not happen on left and right margins. Only top and bottom margins. <br>
+    <br>
+    <div>
+        <h2>CSS Example:</h2>
+        <div class="div">
+            <p>In this example the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px.
+                So, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin
+                collapse, the actual margin ends up being 50px.</p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+        </div>
+    </div>
+</body>
+
+</html>

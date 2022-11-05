@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <h1>SVG Blur Effects</h1>
+    <svg height="110" width="110">
+        <defs>
+            <filter id="f1" x="0" y="0">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+            </filter>
+        </defs>
+        <rect width="90" height="90" stroke="blue" stroke-width="3" fill="cyan" filter="url(#f1)" />
+    </svg>
+</body>
+
+</html>

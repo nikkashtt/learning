@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <h1>SVG Drop Shadows</h1>
+    <svg height="120" width="120">
+        <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+                <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+                <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+            </filter>
+        </defs>
+        <rect width="90" height="90" stroke="blue" stroke-width="3" fill="cyan" filter="url(#f1)" />
+    </svg>
+</body>
+
+</html>

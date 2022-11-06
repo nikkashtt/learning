@@ -1,1 +1,2 @@
-1) 
+1) DIR - list all files and folders in the current directory
+2) CD .. - move out od current directory

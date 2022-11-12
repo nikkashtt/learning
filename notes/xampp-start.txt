@@ -1,0 +1,19 @@
+nikkash@nikkash-desktop:~/desktop$ cd /opt
+nikkash@nikkash-desktop:/opt$ cd lampp
+nikkash@nikkash-desktop:/opt/lampp$ sudo -i
+[sudo] password for nikkash:
+root@nikkash-desktop:~# cd /opt
+root@nikkash-desktop:/opt# cd lampp
+root@nikkash-desktop:/opt/lampp# ./manager-linux-x64.run
+
+
+What is XAMPP?
+    XAMPP is a software package that contains multiple softwares grouped together.
+It contains a web server,database server,php language and perl language.
+The expantion of word XAMPP is given below:
+    X -> Operating System
+    A -> Appache
+    M -> Mysql
+    P -> php
+    P -> perl
+    

@@ -12,8 +12,21 @@ What is XAMPP?
 It contains a web server,database server,php language and perl language.
 The expantion of word XAMPP is given below:
     X -> Operating System
-    A -> Appache
-    M -> Mysql
-    P -> php
-    P -> perl
+    A -> Appache - It is a Web server
+    M -> Mysql   - It is a database server
+    P -> php     - It is a scripting language
+    P -> perl    - It is a scripting language
+
+
+What is Server Software?
+    Software which provides/serves the information is called server software.
+    Appache - web server
+    Mysql   - database server
+
+What is a Cleint software?
+    Sofware which request/ask information is called client software.
+    Example:
+        Firefox,Google Chrome are web cleints thet request information from web server.
+        Phpmyadmin is a database cleint that request information from web server.
     
+

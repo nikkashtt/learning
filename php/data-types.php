@@ -1,7 +1,7 @@
 <html>
-    <head></head>
 <body>
-
+  <h1>Data Types:</h1>
+  <h2>Examples:</h2>
 <?php  
 $x = 5985;
 $y = 10.365;

@@ -15,4 +15,10 @@ function writemsg(){
 function display(){
     echo "Display";
 }
+echo "<br>";
+$x = 5985;
+var_dump($x);
+echo "<br>";
+$x = 4353.65;
+var_dump($x);
 ?>

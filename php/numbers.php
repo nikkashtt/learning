@@ -1,6 +1,6 @@
 <html>
 <body>
-
+<h1>PHP Numbers:</h1>
 <?php
 $x = 5985;
 var_dump(is_int($x));

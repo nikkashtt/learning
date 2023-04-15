@@ -1,4 +1,5 @@
 <?php
+echo "<h1>PHP Functions:</h1>";
 display();
 display();
 writemsg();

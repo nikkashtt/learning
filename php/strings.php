@@ -1,6 +1,6 @@
 <html>
 <body>
-
+<h1>PHP Strings:</h1>
 <?php
 echo "Strlen, Return the Length of a String";
 echo "<br>";

@@ -1,6 +1,6 @@
 <html>
 <body>
-
+<h1>PHP Constants:</h1>
 <?php
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;

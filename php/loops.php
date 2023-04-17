@@ -41,7 +41,7 @@ for ($x = 0; $x <= 100; $x+=10) {
     echo "The number is: $x <br>";
   }
 ?>  
-<h1>For Loop:</h1>
+<h1>PHP For-Each Loop:</h1>
 <?php  
 $colors = array("red", "green", "blue", "yellow"); 
 foreach ($colors as $value) {
